@@ -55,7 +55,7 @@ for item, price in menu.items():
 
     tk.Button(frame, text=f"{item.capitalize()} - Rs{price}", width=20, command=lambda i=item: add_item(i)).pack(side="left")
 
-# Buttons
+
 tk.Button(root, text="Show Total", bg="green", fg="white", command=show_total).pack(pady=15)
 tk.Button(root, text="Clear Order", bg="red", fg="white", command=clear_order).pack(pady=5)
 
